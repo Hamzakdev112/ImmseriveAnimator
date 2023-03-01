@@ -1,0 +1,29 @@
+.service-card-container{
+    box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
+-webkit-box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
+-moz-box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
+}
+
+.services-container{
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+
+}
+
+
+.service-img{
+    animation: animatecolor 10s infinite;
+    transition: 0.3s ease all;
+}
+
+@keyframes animatecolor {
+    0%  { filter: hue-rotate(10deg); }
+    10% { filter: hue-rotate(20deg); }
+    20% { filter: hue-rotate(40deg); }
+    30% { filter: hue-rotate(60deg); }
+    40% { filter: hue-rotate(80deg); }
+    60% { filter: hue-rotate(80deg); }
+    70% { filter: hue-rotate(60deg); }
+    80% { filter: hue-rotate(40deg); }
+    90% { filter: hue-rotate(20deg); }
+    100%{ filter: hue-rotate(0deg); }
+}

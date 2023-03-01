@@ -1,0 +1,43 @@
+.client1{
+    background: url('/public/clients/0.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale();
+    transition: 0.3s ease all;
+    border: 1px solid rgb(222, 222, 222);
+}
+.client2{
+    background: url('/public/clients/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale();
+    transition: 0.3s ease all;
+    border: 1px solid rgb(222, 222, 222);
+
+}
+.client3{
+    background: url('/public/clients/2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: grayscale();
+    transition: 0.3s ease all;
+    border: 1px solid rgb(222, 222, 222);
+
+}
+
+.client1:hover{
+    filter: none;
+    transform: scale(1.1);
+    
+}
+.client2:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+.client3:hover{
+    filter: none;
+    transform: scale(1.1);
+}

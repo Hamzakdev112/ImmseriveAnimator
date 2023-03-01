@@ -1,0 +1,12 @@
+.hero1{
+    background: url("../../public/hero2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero2{
+    background: url("../../public/hero1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
