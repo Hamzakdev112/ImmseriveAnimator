@@ -13,19 +13,19 @@ const ServiceCard = ({title, description, image, index}) => {
         <motion.img
         initial="hidden"
         whileInView="show"
-        variants={textVarient(0.2 * index)}
+        variants={textVarient(0.060)}
         className='w-[100px] service-img' src={image} alt={title} />
         </div>
         <div className='h-[60%]'>
         <motion.h1
         initial="hidden"
         whileInView="show"
-        variants={textVarient(0.2* index)}
+        variants={textVarient(0.060)}
         className='text-[1.5em]  mb-[0.5em] font-bold'>{title}</motion.h1>
         <motion.h4 
         initial="hidden"
         whileInView="show"
-        variants={textVarient(0.2* index)}
+        variants={textVarient(0.060)}
         className='text-[#2c2c2c] font-medium'>{description}</motion.h4>
         </div>
     </div>

@@ -1,7 +1,7 @@
 .service-card-container{
-    box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
--webkit-box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
--moz-box-shadow: 1px 1px 8px 0px rgba(255,255,255,0.75);
+    box-shadow: 1px 1px 8px 0px rgba(177, 210, 8, 0.75);
+-webkit-box-shadow: 1px 1px 8px 0px rgba(157, 164, 17, 0.75);
+-moz-box-shadow: 1px 1px 8px 0px rgba(100, 141, 10, 0.75);
 }
 
 .services-container{
@@ -16,14 +16,15 @@
 }
 
 @keyframes animatecolor {
-    0%  { filter: hue-rotate(10deg); }
-    10% { filter: hue-rotate(20deg); }
-    20% { filter: hue-rotate(40deg); }
-    30% { filter: hue-rotate(60deg); }
-    40% { filter: hue-rotate(80deg); }
-    60% { filter: hue-rotate(80deg); }
-    70% { filter: hue-rotate(60deg); }
-    80% { filter: hue-rotate(40deg); }
-    90% { filter: hue-rotate(20deg); }
-    100%{ filter: hue-rotate(0deg); }
+    0%  { filter: hue-rotate(40deg); }
+    10% { filter: hue-rotate(80deg); }
+    20% { filter: hue-rotate(120deg); }
+    30% { filter: hue-rotate(160deg); }
+    40% { filter: hue-rotate(200deg); }
+    50% { filter: hue-rotate(240deg); }
+    60% { filter: hue-rotate(200deg); }
+    70% { filter: hue-rotate(160deg); }
+    80% { filter: hue-rotate(120deg); }
+    90% { filter: hue-rotate(80deg); }
+    100%{ filter: hue-rotate(40deg); }
 }
