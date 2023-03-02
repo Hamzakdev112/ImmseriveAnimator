@@ -17,13 +17,13 @@ const Services = () => {
     }
   }, [inView]);
   return (
-    <div className='mt-[60px] relative '>
-        <div className='services-container bg-[#f9ffa2]  w-[100%] h-[100%] absolute z-[-10]'></div>
+    <div className='xl:mt-[60px] lg:mt-[50px] md:mt-[40px] sm:mt-[30px] mt-[20px] relative xl:text-[16px] lg:text-[14px] md:text-[14px] sm:text-[13px] text-[12px]  '>
+        <div className='services-container   w-[100%] h-[100%] absolute z-[-10]'></div>
         <h1 className='text-[#f9c900] text-[2em] font-extrabold text-center mb-[0.6em]'>Our Services</h1>
-        <h3 className='text-[1.1em] font-medium text-[#5d5d5d] text-center w-[30%] mx-auto'>We are experts in digital marketing and have a team of experienced professionals who can help you take your business to the next level.</h3>
+        <h3 className='text-[1.1em] font-medium text-[#5d5d5d] text-center w-[60%] lg:w-[30%] mx-auto'>We are experts in digital marketing and have a team of experienced professionals who can help you take your business to the next level.</h3>
             <div
                 ref={ref}
-        className='flex flex-wrap gap-[1.2em] w-[85%] justify-center min-h-[100px] mx-auto mt-[60px]'    
+        className='flex flex-wrap gap-[1em] justify-evenly w-[90%]  min-h-[100px] mx-auto mt-[4em]'    
             >
             {
                 data.map((service, index)=>(
